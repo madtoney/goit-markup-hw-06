@@ -25,7 +25,7 @@
   <body>
     <!-- Page header -->
 
-    <header class="header">
+    <!-- <header class="header">
       <div class="container header-container">
         <nav class="navigation">
           <a href="./index.html" class="logo"
@@ -44,7 +44,7 @@
 
         <!-- Address -->
 
-        <address id="Contacts" class="address-link">
+    <!-- <address id="Contacts" class="address-link">
           <ul class="address-list">
             <li>
               <a href="mailto:info@devstudio.com" class="address-item"
@@ -59,14 +59,14 @@
           </ul>
         </address>
       </div>
-    </header>
+    </header> -->
 
     <!-- Main content -->
 
     <main>
       <!-- Hero section -->
 
-      <section class="hero-section">
+      <!-- <section class="hero-section">
         <div class="container hero-section-container">
           <h1 id="Studio" class="main-title">
             Effective Solutions <br />
@@ -74,7 +74,7 @@
           </h1>
           <button type="button" class="main-button">Order Service</button>
         </div>
-      </section>
+      </section> -->
 
       <!-- Second section content -->
 
@@ -141,7 +141,15 @@
           <h2 id="Portfolio" class="third-section-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-list-item">
-              <img src="./images/1.jpg" alt="Mark Guerrero photo" width="264" />
+              <img
+                srcset="
+                  ./images/team-item-1@1x.jpg 1x,
+                  ./images/team-item-1@1x.jpg 2x
+                "
+                src="./images/team-item-1.jpg"
+                alt="Mark Guerrero photo"
+                width="264"
+              />
               <div class="team-list-container">
                 <h3 class="team-list-title">Mark Guerrero</h3>
                 <p class="team-paragraph">Product Designer</p>
@@ -178,7 +186,15 @@
               </div>
             </li>
             <li class="team-list-item">
-              <img src="./images/2.jpg" alt="Tom Ford photo" width="264" />
+              <img
+                srcset="
+                  ./images/team-item-2@1x.jpg 1x,
+                  ./images/team-item-2@1x.jpg 2x
+                "
+                src="./images/team-item-2.jpg"
+                alt="Tom Ford photo"
+                width="264"
+              />
               <div class="team-list-container">
                 <h3 class="team-list-title">Tom Ford</h3>
                 <p class="team-paragraph">Frontend Developer</p>
@@ -215,7 +231,15 @@
               </div>
             </li>
             <li class="team-list-item">
-              <img src="./images/3.jpg" alt="Camila Garcia photo" width="264" />
+              <img
+                srcset="
+                  ./images/team-item-3@1x.jpg 1x,
+                  ./images/team-item-3@1x.jpg 2x
+                "
+                src="./images/team-item-3.jpg"
+                alt="Camila Garcia photo"
+                width="264"
+              />
               <div class="team-list-container">
                 <h3 class="team-list-title">Camila Garcia</h3>
                 <p class="team-paragraph">Marketing</p>
@@ -252,7 +276,15 @@
               </div>
             </li>
             <li class="team-list-item">
-              <img src="./images/4.jpg" alt="Daniel Wilson photo" width="264" />
+              <img
+                srcset="
+                  ./images/team-item-4@1x.jpg 1x,
+                  ./images/team-item-4@1x.jpg 2x
+                "
+                src="./images/team-item-4.jpg"
+                alt="Daniel Wilson photo"
+                width="264"
+              />
               <div class="team-list-container">
                 <h3 class="team-list-title">Daniel Wilson</h3>
                 <p class="team-paragraph">UI Designer</p>
@@ -300,11 +332,24 @@
           <ul class="portfolio-list">
             <li class="portfolio-list-item">
               <div class="portfolio-list-image">
-                <img
-                  src="./images/img-1.jpg"
-                  alt="Banking App image"
-                  width="360"
-                />
+                <picture>
+                  <source srcset=" ./images/portfolio-item-mob-1@1x.jpg 1x,
+                  ./images/portfolio-item-mob-1@2x.jpg 2x
+                  media="(max-width:767px)"> <source srcset="
+                  ./images/portfolio-item-tab-1@1x.jpg 1x,
+                  ./images/portfolio-item-tab-1@2x.jpg 2x
+                  media="(min-width:768px)"> <source srcset="
+                  ./images/portfolio-item-desk-1@1x.jpg 1x,
+                  ./images/portfolio-item-desk-1@2x.jpg 2x
+                  media="(min-width:1158px)">
+                  <img
+                    src="./images/portfolio-item-mob-1@1x.jpg"
+                    alt="Banking App image"
+                    width="360"
+                    height="300"
+                    class="portfolio-image"
+                  />
+                </picture>
                 <p class="portfolio-image-paragraph">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -319,7 +364,11 @@
             <li class="portfolio-list-item">
               <div class="portfolio-list-image">
                 <img
-                  src="./images/img-2.jpg"
+                  srcset="
+                    ./images/portfolio-item-mob-2@1x.jpg 1x,
+                    ./images/portfolio-item-mob-2@2x.jpg 2x
+                  "
+                  src="./images/portfolio-item-mob-2@1x.jpg"
                   alt="Cashless Payment image"
                   width="360"
                 />
@@ -337,7 +386,11 @@
             <li class="portfolio-list-item">
               <div class="portfolio-list-image">
                 <img
-                  src="./images/img-3.jpg"
+                  srcset="
+                    ./images/portfolio-item-mob-3@1x.jpg 1x,
+                    ./images/portfolio-item-mob-3@2x.jpg 2x
+                  "
+                  src="./images/portfolio-item-mob-3@1x.jpg"
                   alt="Meditation App image"
                   width="360"
                 />
@@ -355,7 +408,11 @@
             <li class="portfolio-list-item">
               <div class="portfolio-list-image">
                 <img
-                  src="./images/img-2-1.jpg"
+                  srcset="
+                    ./images/portfolio-item-mob-4@1x.jpg 1x,
+                    ./images/portfolio-item-mob-4@2x.jpg 2x
+                  "
+                  src="./images/portfolio-item-mob-4@1x.jpg"
                   alt="Taxi Driver image"
                   width="360"
                 />
@@ -373,7 +430,11 @@
             <li class="portfolio-list-item">
               <div class="portfolio-list-image">
                 <img
-                  src="./images/img-2-2.jpg"
+                  srcset="
+                    ./images/portfolio-item-mob-5@1x.jpg 1x,
+                    ./images/portfolio-item-mob-5@2x.jpg 2x
+                  "
+                  src="./images/portfolio-item-mob-5@1x.jpg"
                   alt="Smartphone image"
                   width="360"
                 />
@@ -391,7 +452,11 @@
             <li class="portfolio-list-item">
               <div class="portfolio-list-image">
                 <img
-                  src="./images/img-2-3.jpg"
+                  srcset="
+                    ./images/portfolio-item-mob-6@1x.jpg 1x,
+                    ./images/portfolio-item-mob-6@2x.jpg 2x
+                  "
+                  src="./images/portfolio-item-mob-6@1x.jpg"
                   alt="Girl in orange image"
                   width="360"
                 />
@@ -412,6 +477,7 @@
     </main>
 
     <!-- Footer and footer-logo -->
+
     <footer class="footer">
       <div class="container footer-container">
         <div class="footer-logo-paragraph-container">
@@ -483,7 +549,7 @@
 
     <!-- Modal window -->
 
-    <div class="backdrop is-open">
+    <!-- <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg class="modal-close-icon" width="8" height="8">
@@ -496,7 +562,7 @@
 
         <!-- Form -->
 
-        <form>
+    <!-- <form>
           <div class="form-backdrop-container">
             <label class="user-label" for="user-name">Name</label>
             <div class="input-container">
@@ -571,6 +637,6 @@
           <button type="submit" class="policy-button">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
