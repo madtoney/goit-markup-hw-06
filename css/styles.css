@@ -205,7 +205,6 @@ p {
   line-height: 24px;
   letter-spacing: 0.32px;
   width: 100%;
-  /* width: calc((100% - 72px) / 4); */
 }
 
 /* .preferences-item-container {
@@ -911,17 +910,22 @@ p {
     width: 100%;
   }
 
+  .address {
+    padding: 0;
+  }
+
   .address-list {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     gap: 12px;
-    margin-left: 121px;
+    /* margin-left: 121px; */
   }
 
   .address-link {
     font-style: normal;
     margin-left: auto;
+    padding: 0;
   }
 
   .address-item {
@@ -1016,6 +1020,11 @@ padding: 188px 0;
   } */
 
 /* Second section */
+
+/* .second-section {
+  padding: 120px 0;
+} */
+
 /* .preferences-list {
     display: flex;
     gap: 24px;
