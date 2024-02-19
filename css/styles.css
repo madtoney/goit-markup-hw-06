@@ -864,9 +864,7 @@ p {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 584px;
-    padding-left: 16px;
-    padding-right: 16px;
+    max-width: 768px;
   }
 
   /* Navigation, logo and address */
@@ -916,7 +914,7 @@ p {
   .address-list {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap: 12px;
     margin-left: 121px;
   }
@@ -1006,8 +1004,7 @@ p {
 /* @media screen and (min-width: 1158px) {
   .container {
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
   } */
 
 /* Hero section */
