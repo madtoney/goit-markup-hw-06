@@ -41,7 +41,7 @@ p {
   /* padding: 0 15px; */
   max-width: 320px;
   padding: 0 16px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 
 /* Header */
@@ -55,8 +55,8 @@ p {
 
 .header-container {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  /* align-items: center;
+  justify-content: space-between; */
 }
 
 /* Navigation, logo and address */
@@ -74,8 +74,8 @@ p {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* margin-right: 149px; */
-  padding: 17px 0;
+  margin-right: 149px;
+  padding: 24px 0;
 }
 
 .logo-part {
