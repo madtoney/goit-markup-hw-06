@@ -977,12 +977,6 @@ p {
 
   /* Third section content */
 
-  /* Footer and footer logo */
-
-  .form-paragraph {
-    text-align: left;
-  }
-
   .third-section-container {
     padding-left: 108px;
     padding-right: 108px;
@@ -1035,6 +1029,10 @@ p {
 
   .input {
     width: 264px;
+  }
+
+  .form-paragraph {
+    text-align: left;
   }
 
   /* Hero section content */
