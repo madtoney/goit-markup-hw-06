@@ -969,6 +969,10 @@ p {
 
   /* Navigation, logo and address */
 
+  .header-container {
+    align-items: center;
+  }
+
   .logo {
     margin-right: 120px;
   }
@@ -1020,7 +1024,6 @@ p {
     flex-direction: column;
     /* justify-content: space-between; */
     gap: 12px;
-    margin: auto;
     /* margin-left: 121px; */
   }
 
@@ -1053,7 +1056,7 @@ p {
   .hero-section {
     max-width: 100%;
     height: 436px;
-    padding: 112px 136px;
+    padding: 112px 0;
     margin: 0 auto;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -1085,6 +1088,11 @@ p {
 
   .preferences-list {
     column-gap: 24px;
+  }
+
+  .preferences-item-title {
+    display: inline-block;
+    text-align: left;
   }
 
   .preferences-item {
