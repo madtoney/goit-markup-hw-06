@@ -40,6 +40,11 @@
             <li><a href="" class="nav-item">Portfolio</a></li>
             <li><a href="" class="nav-item">Contacts</a></li>
           </ul>
+          <button type="button" class="open-menu-btn">
+            <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-header-menu-icon"></use>
+            </svg>
+          </button>
         </nav>
 
         <!-- Address -->
@@ -58,11 +63,77 @@
             </li>
           </ul>
         </address>
-        <button type="button" class="open-menu-btn">
-          <svg width="24" height="24">
-            <use href="./images/icons.svg#icon-header-menu-icon"></use>
+      </div>
+
+<!-- Mobile menu -->
+
+      <div class="mob-menu">
+        <div>
+        <button type="button" class="close-menu-btn">
+            <svg class="modal-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-icon"></use>
           </svg>
+          </button>
         </button>
+        <nav class="mob-menu-navigation">
+          <ul class="mob-menu-list">
+            <li>
+              <a
+                class="mob-menu-item current"
+                href="./index.html"
+                target="_blank"
+                >Studio</a
+              >
+            </li>
+            <li><a href="" class="mob-menu-item">Portfolio</a></li>
+            <li><a href="" class="mob-menu-item">Contacts</a></li>
+          </ul>
+           <address id="Contacts" class="mob-address-link">
+          <ul class="mob-address-list">
+            <li>
+              <a href="mailto:info@devstudio.com" class="mob-address-item current"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="mob-address-item"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        </nav>
+        </div>
+        <ul class="mob-menu-socials">
+          <li class="mob-socials-item">
+            <a class="mob-socials-link" href="">
+              <svg class="mob-socials" width="16" height="16">
+                <use href="./images/icons.svg#icon-instagram-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-socials-item">
+            <a class="mob-socials-link" href="">
+              <svg class="mob-socials" width="16" height="16">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-socials-item">
+            <a class="mob-socials-link" href="">
+              <svg class="mob-socials" width="16" height="16">
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-socials-item">
+            <a class="mob-socials-link" href="">
+              <svg class="mob-socials" width="16" height="16">
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
 
@@ -149,7 +220,7 @@
               <img
                 srcset="
                   ./images/team-item-1@1x.jpg 1x,
-                  ./images/team-item-1@1x.jpg 2x
+                  ./images/team-item-1@2x.jpg 2x
                 "
                 src="./images/team-item-1.jpg"
                 alt="Mark Guerrero photo"
@@ -194,7 +265,7 @@
               <img
                 srcset="
                   ./images/team-item-2@1x.jpg 1x,
-                  ./images/team-item-2@1x.jpg 2x
+                  ./images/team-item-2@2x.jpg 2x
                 "
                 src="./images/team-item-2.jpg"
                 alt="Tom Ford photo"
@@ -239,7 +310,7 @@
               <img
                 srcset="
                   ./images/team-item-3@1x.jpg 1x,
-                  ./images/team-item-3@1x.jpg 2x
+                  ./images/team-item-3@2x.jpg 2x
                 "
                 src="./images/team-item-3.jpg"
                 alt="Camila Garcia photo"
@@ -284,7 +355,7 @@
               <img
                 srcset="
                   ./images/team-item-4@1x.jpg 1x,
-                  ./images/team-item-4@1x.jpg 2x
+                  ./images/team-item-4@2x.jpg 2x
                 "
                 src="./images/team-item-4.jpg"
                 alt="Daniel Wilson photo"
@@ -348,7 +419,7 @@
                   ./images/portfolio-item-desk-1@2x.jpg 2x
                   media="(min-width:1158px)">
                   <img
-                    src="./images/portfolio-item-mob-1@1x.jpg"
+                    src="./images/portfolio-item-desk-1@1x.jpg"
                     alt="Banking App image"
                     width="360"
                     class="portfolio-image"
@@ -360,7 +431,7 @@
                   · Cloud Storage App
                 </p>
               </div>
-              <div class="container title-paragraph-container">
+              <div class="title-paragraph-container">
                 <h3 class="portfolio-item-title">Banking App</h3>
                 <p class="portfolio-item-paragraph">App</p>
               </div>
@@ -389,7 +460,7 @@
                   · Cloud Storage App
                 </p>
               </div>
-              <div class="container title-paragraph-container">
+              <div class="title-paragraph-container">
                 <h3 class="portfolio-item-title">Cashless Payment</h3>
                 <p class="portfolio-item-paragraph">Marketing</p>
               </div>
@@ -418,7 +489,7 @@
                   · Cloud Storage App
                 </p>
               </div>
-              <div class="container title-paragraph-container">
+              <div class="title-paragraph-container">
                 <h3 class="portfolio-item-title">Meditation App</h3>
                 <p class="portfolio-item-paragraph">App</p>
               </div>
@@ -447,7 +518,7 @@
                   · Cloud Storage App
                 </p>
               </div>
-              <div class="container title-paragraph-container">
+              <div class="title-paragraph-container">
                 <h3 class="portfolio-item-title">Taxi Service</h3>
                 <p class="portfolio-item-paragraph">Marketing</p>
               </div>
@@ -476,7 +547,7 @@
                   · Cloud Storage App
                 </p>
               </div>
-              <div class="container title-paragraph-container">
+              <div class="title-paragraph-container">
                 <h3 class="portfolio-item-title">Screen Illustrations</h3>
                 <p class="portfolio-item-paragraph">Design</p>
               </div>
@@ -505,7 +576,7 @@
                   · Cloud Storage App
                 </p>
               </div>
-              <div class="container title-paragraph-container">
+              <div class="title-paragraph-container">
                 <h3 class="portfolio-item-title">Online Courses</h3>
                 <p class="portfolio-item-paragraph">Marketing</p>
               </div>
@@ -597,11 +668,11 @@
         </button>
         <p class="backdrop-paragraph">
           Leave your contacts and we will call you back
-        </p>
+        </p> -->
 
         <!-- Form -->
 
-    <!-- <form>
+        <!-- <form>
           <div class="form-backdrop-container">
             <label class="user-label" for="user-name">Name</label>
             <div class="input-container">
@@ -675,7 +746,7 @@
           </div>
           <button type="submit" class="policy-button">Send</button>
         </form>
-      </div>
-    </div> -->
+      </div> -->
+    </div>
   </body>
 </html>
